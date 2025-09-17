@@ -1,10 +1,33 @@
 {
+  "name": "flask-notes",
+  "version": "1.0.0",
+  "description": "Flask Web框架学习指南与笔记",
+  "author": "liuyan",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyanbioinfo/flask-notes"
+  },
+  "keywords": [
+    "flask",
+    "python",
+    "web framework",
+    "tutorial",
+    "documentation"
+  ],
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.12"
+    "vitepress": "^1.0.0-rc.40",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "mermaid": "^10.6.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }

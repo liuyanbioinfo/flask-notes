@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "Flask 学习笔记",
   description: "Flask Web框架学习指南",
   lang: 'zh-CN',
@@ -78,4 +79,4 @@ export default defineConfig({
       next: '下一页'
     }
   }
-})
+}))
