@@ -4,7 +4,6 @@
   "description": "Flask Web框架学习指南与笔记",
   "author": "liuyan",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/liuyanbioinfo/flask-notes"
