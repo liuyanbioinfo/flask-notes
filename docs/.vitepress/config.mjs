@@ -6,8 +6,22 @@ export default withMermaid(defineConfig({
   title: "Flask 学习笔记",
   description: "Flask Web框架学习指南",
   lang: 'zh-CN',
-  base: '/flask-notes/',  // 添加这行配置
+  base: '/flask-notes/',
   lastUpdated: true,
+  
+  // 添加head配置来指定favicon和其他meta信息
+  head: [
+    ['link', { rel: 'icon', href: '/flask-notes/favicon.ico' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/flask-notes/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#646cff' }],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'zh-CN' }],
+    ['meta', { name: 'og:title', content: 'Flask 学习笔记 | 全面的 Flask Web 框架学习指南' }],
+    ['meta', { name: 'og:site_name', content: 'Flask 学习笔记' }],
+    ['meta', { name: 'og:url', content: 'https://liuyanbioinfo.github.io/flask-notes/' }],
+    ['meta', { name: 'og:description', content: 'Flask Web框架学习指南，从入门到精通的完整教程' }]
+  ],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
