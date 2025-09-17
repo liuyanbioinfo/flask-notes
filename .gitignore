@@ -1,0 +1,9 @@
+# vscode settings
+.vscode/
+
+# node modules
+node_modules/
+
+# vitepress cache & dist
+docs/.vitepress/cache/
+docs/.vitepress/dist/
