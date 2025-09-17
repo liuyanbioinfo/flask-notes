@@ -6,6 +6,7 @@ export default withMermaid(defineConfig({
   title: "Flask 学习笔记",
   description: "Flask Web框架学习指南",
   lang: 'zh-CN',
+  base: '/flask-notes/',  // 添加这行配置
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -45,7 +46,7 @@ export default withMermaid(defineConfig({
     
     footer: {
       message: '基于 MIT 许可发布',
-      copyright: 'Copyright © 2023-present'
+      copyright: 'Copyright © 2025-present'
     },
     
     // 搜索功能
