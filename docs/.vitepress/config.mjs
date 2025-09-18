@@ -30,7 +30,6 @@ export default withMermaid(defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Flask教程', link: '/flask/' },
-      /*{ text: '示例代码', link: '/examples/' },*/
     ],
 
     sidebar: [
@@ -38,18 +37,25 @@ export default withMermaid(defineConfig({
         text: 'Flask教程',
         items: [
           { text: '大纲', link: '/flask/0. 大纲' },
-          { text: '引言', link: '/flask/1. 引言' },
-          { text: '环境设置与安装', link: '/flask/2. 环境设置与安装' },
-          { text: 'Flask 基础概念', link: '/flask/3. Flask 基础概念' },
-          { text: '模板引擎：Jinja2', link: '/flask/4. 模板引擎：Jinja2' },
-          { text: '表单处理', link: '/flask/5. 表单处理' },
-          { text: '数据库集成', link: '/flask/6. 数据库集成' },
-          { text: '用户认证和会话管理', link: '/flask/7. 用户认证和会话管理 的内容' },
-          { text: '错误处理和调试', link: '/flask/8. 错误处理和调试' },
-          { text: '进阶主题', link: '/flask/9. 进阶主题' },
-          { text: '部署和生产环境', link: '/flask/10. 部署和生产环境' },
-          { text: '最佳实践和总结', link: '/flask/11. 最佳实践和总结' },
-          { text: '附录', link: '/flask/12. 附录' },
+          { text: '引言与概述', link: '/flask/1. 引言与概述' },
+          { text: '开发环境与工具链', link: '/flask/2. 开发环境与工具链' },
+          { text: 'Flask核心概念', link: '/flask/3. Flask核心概念' },
+          { text: '模版引擎与前端集成', link: '/flask/4. 模版引擎与前端集成' },
+          { text: '表单处理与数据验证', link: '/flask/5. 表单处理与数据验证' },
+          { text: '数据库设计与ORM', link: '/flask/6. 数据库设计与ORM' },
+          { text: '用户认证与权限管理', link: '/flask/7. 用户认证与权限管理' },
+          { text: 'API开发与微服务', link: '/flask/8. API开发与微服务' },
+          { text: '应用架构与模块化', link: '/flask/9. 应用架构与模块化' },
+          { text: '错误处理与监控', link: '/flask/10. 错误处理与监控' },
+          { text: '测试策略与实施', link: '/flask/11. 测试策略与实施' },
+          { text: '代码质量与规范', link: '/flask/12. 代码质量与规范' },
+          { text: '部署策略与环境管理', link: '/flask/13. 部署策略与环境管理' },
+          { text: '云平台部署', link: '/flask/14. 云平台部署' },
+          { text: '安全与性能优化', link: '/flask/15. 安全与性能优化' },
+          { text: '综合项目实战', link: '/flask/16. 综合项目实战' },
+          { text: '生态系统与扩展', link: '/flask/17. 生态系统与扩展' },
+          { text: '职业发展与最佳实践', link: '/flask/18. 职业发展与最佳实践' },
+          { text: '附录', link: '/flask/附录' },
         ]
       }
     ],
