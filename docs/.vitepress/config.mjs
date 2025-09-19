@@ -31,7 +31,7 @@ export default withMermaid(defineConfig({
     nav: [
       { text: '🏠 首页', link: '/' },
       { text: '📚 Flask教程', link: '/flask/' },
-      { text: '🎯 大纲', link: '/flask/0. 大纲' }
+      //{ text: '🎯 大纲', link: '/flask/0. 大纲' }
     ],
 
     sidebar: {
