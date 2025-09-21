@@ -5,7 +5,7 @@ hero:
   name: "Flask 学习笔记"
   tagline: 从入门到精通的 Flask 开发教程
   image:
-    src: /logo.png
+    src: /logo.v2.png
     alt: Logo
   actions:
     - theme: brand
